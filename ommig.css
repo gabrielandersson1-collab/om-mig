@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(118, 181, 236, 50);
+}
+    
+h1{
+    text-align: center;
+}
+.header {
+    margin-top: 5%;
+}
+
+.rundruta{
+    border: 4px solid #11bc0e;    /* Grön kantlinje */
+    border-radius: 20px;             /* Rundade hörn */
+    padding: 1%;                   /* Utrymme inuti rutan */
+    width: 25%;              /* Anpassar bredden efter texten */
+    background-color: rgb(255, 255, 255);     /* Ljus bakgrundsfärg */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.Meny{
+    background-color: rgb(255, 255, 255);
+    width: 10%;
+    list-style: none;
+    padding: 10;
+}
