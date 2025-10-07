@@ -1,0 +1,33 @@
+body{
+    background-image: url(Svagtljus.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    text-align: center;
+    top: 5%;
+}
+
+.familj{
+    border: 4px solid #e40a0a;    /* Grön kantlinje */
+    border-radius: 20px;            
+    padding: 2%;                   /* Utrymme inuti rutan */
+    width: 18%;              
+    background-color: rgb(255, 255, 255);    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    word-wrap: break-word;       /* Bryter långa ord vid behov */
+    overflow-wrap: break-word;   /* Modernare variant, bra att ha med också */
+    white-space: normal;         /* Tillåter radbrytningar */
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center; /* Centrerar rutorna horisontellt */
+    gap: 20px;               /* Avstånd mellan rutorna */
+    margin-top: 50px;
+    flex-wrap: wrap;         /* Gör att de bryts till ny rad om skärmen är smal */
+}
+
+
