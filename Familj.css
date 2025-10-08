@@ -10,7 +10,7 @@ h1{
 }
 
 .familj{
-    border: 4px solid #e40a0a;    /* Grön kantlinje */
+    border: 4px solid rgb(228, 10, 10);    /* Grön kantlinje */
     border-radius: 20px;            
     padding: 2%;                   /* Utrymme inuti rutan */
     width: 18%;              

@@ -1,0 +1,34 @@
+body {
+    background-color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: aliceblue;
+}
+
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+.underrubrik {
+    display: flex;
+    justify-content: space-around; /* Jämn spridning mellan kolumner */
+    margin-top: 30px;
+}
+
+/* Varje kolumn för en sport */
+.sport-kolumn {
+    margin-left: 0px;
+}
+
+/* Svar-rubrik */
+.svar-titel {
+    margin-top: 20px;
+    color: rgb(200, 200, 255);
+}
+
+
+
+.frågor ol {
+    line-height: 4; 
+}
