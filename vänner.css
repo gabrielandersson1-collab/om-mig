@@ -1,12 +1,12 @@
-.rad{ 
+.bilder{ 
   display: flex;              /* gör att bilderna ligger på samma rad */
   justify-content: center;    /* centrerar dem horisontellt */
   gap: 20px;                  /* avstånd mellan bilderna */
-  margin: 10%;
+  margin: 5%;
 }
 
-.rad img{ 
-  width: 200px;               /* bestäm hur stora bilderna ska vara */
+.bilder img{ 
+  width: 400px;               /* bestäm hur stora bilderna ska vara */
   height: auto;               /* behåll proportionerna */
   border-radius: 10px;        /* rundade hörn, valfritt */
   
