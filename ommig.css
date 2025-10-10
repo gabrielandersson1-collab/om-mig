@@ -35,11 +35,12 @@ h1{
     cursor: pointer;
     position: relative;
     width: 200px;
-    color: rgb(8, 58, 240);
+    color: rgb(0, 0, 0);
 }
 
 .meny > ul > li:hover{
     background-color: white;
+    color: rgb(60, 131, 224);
 }
 
 .dropdown{
@@ -71,6 +72,6 @@ img{
 }
 
 .flex-container {
-    display: flex;
+   display: flex;
    gap: 70px;
 }
