@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #fafafa;
+  color: #222;
+  margin: 0;
+  padding: 0 18px;
+}
+
+/* Header */
+header {
+  background: #e9e9e9;
+  padding: 12px;
+  text-align: center;
+  margin-bottom: 18px;
+}
+
+/* Avdelningar (section) */
+section {
+  background: #fff;
+  padding: 14px;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+  margin-bottom: 14px;
+}
+
+/* Bilder */
+.photo {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 8px 0;
+  border-radius: 6px;
+}
+
+/* Enkel nav-länkstil */
+nav a {
+  color: #333;
+  text-decoration: none;
+  margin: 0 6px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 12px 0;
+  color: #666;
+  font-size: 14px;
+  margin-top: 12px;
+}
