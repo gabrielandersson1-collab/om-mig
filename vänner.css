@@ -1,13 +1,33 @@
-.bilder{ 
-  display: flex;              /* gör att bilderna ligger på samma rad */
-  justify-content: center;    /* centrerar dem horisontellt */
-  gap: 20px;                  /* avstånd mellan bilderna */
-  margin: 5%;
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(255, 255, 255);
+  color: #222;
+  margin: 0;
+  padding: 0 18px;
 }
 
-.bilder img{ 
-  width: 400px;               /* bestäm hur stora bilderna ska vara */
-  height: auto;               /* behåll proportionerna */
-  border-radius: 10px;        /* rundade hörn, valfritt */
-  
+/* Header */
+header {
+  background-color: rgb(209, 234, 243);
+  padding: 12px;
+  text-align: center;
+  margin-bottom: 18px;
+}
+
+/* Avdelningar (section) */
+section {
+  background-color: aliceblue;
+  padding: 14px;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+  margin-bottom: 14px;
+}
+
+/* Bilder */
+.photo {
+  display: block;
+  max-width: 50%;
+  height: auto;
+  margin: 8px 0;
+  border-radius: 6px;
 }

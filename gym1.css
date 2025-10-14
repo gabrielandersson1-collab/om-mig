@@ -1,7 +1,7 @@
-body.gym-page {
+body{
   font-family: 'Poppins', sans-serif;
-  background: linear-gradient(180deg, #0d0d0d, #1a1a1a);
-  color: #fff;
+  background-color: rgb(17, 17, 17);
+  color: rgb(255, 255, 255);
   margin: 0;
   padding: 0;
 }
@@ -12,22 +12,13 @@ header {
   background-color: #111;
 }
 
-nav a {
-  color: #ccc;
-  text-decoration: none;
-  margin: 0 15px;
-  font-weight: bold;
-}
 
-nav a:hover, nav a.active {
-  color: rgb(255, 255, 255);
-}
 
 .intro, .workouts {
   max-width: 800px;
   margin: 40px auto;
   padding: 20px;
-  background: #222;
+  background: rgb(34, 34, 34);
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0,255,136,0.2);
 }
@@ -37,6 +28,7 @@ nav a:hover, nav a.active {
   justify-content: center;
   gap: 20px;
   flex-wrap: wrap;
+  
 }
 
 .image-gallery img {
