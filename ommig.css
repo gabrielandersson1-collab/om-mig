@@ -11,7 +11,7 @@ h1{
 }
 
 .rundruta{
-    border: 4px solid #aec9d6;    /* Grön kantlinje */
+    border: 4px solid rgb(174, 201, 214);    /* Grön kantlinje */
     border-radius: 20px;            
     padding: 2%;                   /* Utrymme inuti rutan */
     width: 25%;              
