@@ -1,39 +1,67 @@
-body{
-    background-image: url(Svagtljus.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+body {
+  font-family: Arial, sans-serif;
+  color: rgb(0, 0, 0);
+  margin: 0;
+  padding: 0 18px;
 }
 
-h1{
-    text-align: center;
-    top: 5%;
+header {
+  background-color: rgb(144, 220, 252);
+  padding: 12px;
+  text-align: center;
+  margin-bottom: 18px;
 }
 
-.länkar a {  
+.länkar a {
+  margin: 0 70px;  
   text-decoration: none; 
   color: rgb(0, 0, 0); 
   text-align: center;
 }
 
-.familj{
-    border: 4px solid rgb(228, 10, 10);    /* Grön kantlinje */
+section {
+  padding: 14px;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+  margin-bottom: 14px;
+}
+
+h2{
+    margin-left: 50px;
+}
+
+.ruta{
+    border: 4px solid rgb(174, 201, 214);   
     border-radius: 20px;            
-    padding: 2%;                   /* Utrymme inuti rutan */
-    width: 18%;              
+    padding: 2%;                   
+    width: 40%;              
     background-color: rgb(255, 255, 255);    
     font-family: Georgia, 'Times New Roman', Times, serif;
-    word-wrap: break-word;       /* Bryter långa ord vid behov */
-    overflow-wrap: break-word;   /* Modernare variant, bra att ha med också */
-    white-space: normal;         /* Tillåter radbrytningar */
-    text-align: center;
+    word-wrap: break-word;       
+    overflow-wrap: break-word;   
+    white-space: normal;         
 }
 
-.container {
-    display: flex;
-    justify-content: center; /* Centrerar rutorna horisontellt */
-    gap: 20px;               /* Avstånd mellan rutorna */
-    margin-top: 50px;
-    flex-wrap: wrap;         /* Gör att de bryts till ny rad om skärmen är smal */
+.bild{
+    background-image: url(Svagtljus.jpg);
+    background-size: cover;
 }
 
+.bild2{
+    background-image: url(coolbild.jpg);
+    background-size: cover;
+}
 
+.bild3{
+    background-image: url(moln.jpg);
+    background-size: cover;
+}
+
+.bild4{
+    background-image: url(vatten.jpg);
+    background-size: cover;
+}
+
+.färg{
+    color: aliceblue;
+}

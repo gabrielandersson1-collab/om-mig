@@ -14,7 +14,7 @@ h1{
     border: 4px solid rgb(174, 201, 214);    /* Grön kantlinje */
     border-radius: 20px;            
     padding: 2%;                   /* Utrymme inuti rutan */
-    width: 25%;              
+    width: 35%;              
     background-color: rgb(255, 255, 255);    
     font-family: Georgia, 'Times New Roman', Times, serif;
     word-wrap: break-word;       /* Bryter långa ord vid behov */
@@ -35,7 +35,9 @@ h1{
     cursor: pointer;
     position: relative;
     width: 200px;
+    height: 30px;
     color: rgb(0, 0, 0);
+    margin-top: 20px;
 }
 
 .meny > ul > li:hover{
@@ -50,12 +52,13 @@ h1{
     top: 0px;
     background-color: rgb(255, 255, 255);
     min-width: 200px;
+    border-radius: 7px;
 }
  
 .dropdown li {
   padding: 0px;
   cursor: pointer;
-  margin: 25px;
+  margin: 5%;
 }
 
 .dropdown li:hover {
@@ -67,11 +70,11 @@ h1{
 }
 
 img{
-    width: 400px;
+    width: 25%;
     margin-top: 0px;
 }
 
 .flex-container {
    display: flex;
-   gap: 70px;
+   gap: 14%;
 }

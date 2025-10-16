@@ -1,20 +1,29 @@
 body {
   font-family: Arial, sans-serif;
   background-color: rgb(255, 255, 255);
-  color: #222;
+  color: rgb(34, 34, 34);
   margin: 0;
   padding: 0 18px;
 }
 
-/* Header */
+
 header {
-  background-color: rgb(209, 234, 243);
+  margin-top: 20px;
+  background-color: rgb(131, 194, 239);
   padding: 12px;
   text-align: center;
   margin-bottom: 18px;
+  font-family: 'Times New Roman', Times, serif;
 }
 
-/* Avdelningar (section) */
+.länkar a {
+  margin: 0 70px;  
+  text-decoration: none; 
+  color: rgb(0, 0, 0); 
+  text-align: center;
+}
+
+
 section {
   background-color: aliceblue;
   padding: 14px;
@@ -23,13 +32,34 @@ section {
   margin-bottom: 14px;
 }
 
-/* Bilder */
+
 .photo {
   display: block;
   max-width: 100%;
   height: auto;
   margin: 8px 0;
   border-radius: 6px;
+}
+
+h2{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.brevid{
+  display: flex;
+  gap: 10%;
+}
+
+p{
+   border: 4px solid rgb(174, 201, 214);    
+    border-radius: 20px;            
+    padding: 2%;                 
+    width: 40%;              
+    background-color: rgb(255, 255, 255);    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    word-wrap: break-word;       /* Bryter långa ord vid behov */
+    overflow-wrap: break-word;   /* Modernare variant, bra att ha med också */
+    white-space: normal;         /* Tillåter radbrytningar */
 }
 
 

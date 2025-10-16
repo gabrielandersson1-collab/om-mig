@@ -1,14 +1,14 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: rgb(255, 255, 255);
-  color: rgb(0, 0, 0);
+  background-color: rgb(43, 1, 1);
+  color: rgb(255, 255, 255);
   margin: 0;
   padding: 0 18px;
 }
 
 
 header {
-  background-color: rgb(223, 238, 244);
+  background-color: rgb(0, 63, 88);
   padding: 12px;
   text-align: center;
   margin-bottom: 18px;
@@ -18,12 +18,12 @@ header {
 .länkar a {
   margin: 0 70px;  
   text-decoration: none; 
-  color: rgb(0, 159, 198); 
+  color: rgb(255, 255, 255); 
   text-align: center;
 }
 
 section {
-  background-color: aliceblue;
+  background-color: rgb(0, 57, 108);
   padding: 14px;
   border-radius: 6px;
   box-shadow: 0 1px 3px rgba(0,0,0,0.08);
@@ -42,6 +42,7 @@ section {
   border-radius: 6px;
   flex: 1;
   border: 4px solid rgb(174, 201, 214);
+  color: black;
 }
 
 .photo {

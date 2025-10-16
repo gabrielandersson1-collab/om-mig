@@ -1,22 +1,29 @@
 body {
   font-family: Arial, sans-serif;
-  background: rgb(159, 201, 203);
-  color: rgb(0, 0, 0);
+  background-color: rgb(91, 91, 91);
+  color: rgb(255, 255, 255);
   margin: 0;
   padding: 0 18px;
 }
 
 
 header{
-   background-color: rgb(209, 242, 246);
    text-align: center;
    padding: 1%;
    margin-bottom: 2%;
    margin-top: 2%;
+   font-family: 'Times New Roman', Times, serif;
+}
+
+.länkar a {
+  margin: 0 70px;  
+  text-decoration: none; 
+  color: rgb(255, 255, 255); 
+  text-align: center;
 }
 
 section{
-  background-color: rgb(171, 217, 220);
+  background-color: rgb(49, 49, 49);
   padding: 14px;
   border-radius: 6px;
   box-shadow: 0 1px 3px rgba(0,0,0,0.08);
@@ -24,10 +31,26 @@ section{
 }
 
 .photo{
-    display: block;
+  display: block;
   max-width: 100%;
   height: auto;
   margin: 8px 0;
   border-radius: 6px;
 }
 
+.brevid{
+  display: flex;
+  gap: 30%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.p{
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h2{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
